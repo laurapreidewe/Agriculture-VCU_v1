@@ -862,7 +862,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "VCU Relays/VCU Relays.kicad_sch"
+		(property "Sheetfile" "VCU Relays.kicad_sch"
 			(at 149.86 97.1046 0)
 			(effects
 				(font
@@ -1130,7 +1130,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power supply/power supply.kicad_sch"
+		(property "Sheetfile" "power supply.kicad_sch"
 			(at 82.55 64.0846 0)
 			(effects
 				(font
@@ -1177,7 +1177,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "STM32F446RE minsys/STM32F446RE minsys.kicad_sch"
+		(property "Sheetfile" "STM32F446RE minsys.kicad_sch"
 			(at 82.296 154.178 0)
 			(effects
 				(font
@@ -1494,7 +1494,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "VCU Connectors/VCU Connectors.kicad_sch"
+		(property "Sheetfile" "VCU Connectors.kicad_sch"
 			(at 149.606 154.178 0)
 			(effects
 				(font
