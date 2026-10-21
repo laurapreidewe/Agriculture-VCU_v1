@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "cc16c3a6-03f8-4cfb-b586-2e6135ccde0f")
 	(paper "A4")
 	(title_block
@@ -844,17 +844,23 @@
 	(sheet
 		(at 149.86 45.72)
 		(size 46.99 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0d11cd13-4ca8-4bc7-b1cd-49cd2362f8e1")
 		(property "Sheetname" "RELAY"
 			(at 149.86 45.0084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -864,6 +870,8 @@
 		)
 		(property "Sheetfile" "VCU Relays.kicad_sch"
 			(at 149.86 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,233 +881,233 @@
 		)
 		(pin "PM_DRIVER_RELAY1" input
 			(at 196.85 74.93 0)
+			(uuid "ddd05bb8-cb7e-4127-bcb7-ce0415bcda95")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ddd05bb8-cb7e-4127-bcb7-ce0415bcda95")
 		)
 		(pin "PM_RELAY1" input
 			(at 149.86 74.93 180)
+			(uuid "8a473ec0-949f-4689-87af-e0f6f2b4ed5a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8a473ec0-949f-4689-87af-e0f6f2b4ed5a")
 		)
 		(pin "MM_DRIVER_RELAY1" input
 			(at 196.85 58.42 0)
+			(uuid "7df2730f-2acf-48dc-aa13-a8f3bd58547e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7df2730f-2acf-48dc-aa13-a8f3bd58547e")
 		)
 		(pin "MM_DRIVER_RELAY2" input
 			(at 196.85 60.96 0)
+			(uuid "eae094f1-eba2-4ad7-af35-6cc69398d11e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "eae094f1-eba2-4ad7-af35-6cc69398d11e")
 		)
 		(pin "MM_DRIVER_RELAY3" input
 			(at 196.85 63.5 0)
+			(uuid "f48756a6-7827-4678-a522-6d6e06dc6f9f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f48756a6-7827-4678-a522-6d6e06dc6f9f")
 		)
 		(pin "MM_RELAY1" input
 			(at 149.86 58.42 180)
+			(uuid "deeba15b-2601-45b6-afce-414a59c4d25e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "deeba15b-2601-45b6-afce-414a59c4d25e")
 		)
 		(pin "MM_DRIVER_RELAY4" input
 			(at 196.85 66.04 0)
+			(uuid "cee1cfb8-78ef-4a6c-ba22-5eb28e467f5c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cee1cfb8-78ef-4a6c-ba22-5eb28e467f5c")
 		)
 		(pin "PM_DRIVER_RELAY4" input
 			(at 196.85 82.55 0)
+			(uuid "17e3b4d7-a8e6-4e47-bee3-ae8b29534037")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "17e3b4d7-a8e6-4e47-bee3-ae8b29534037")
 		)
 		(pin "MM_DRIVER_RELAY5" input
 			(at 196.85 68.58 0)
+			(uuid "64e78cd0-fabf-41ce-a5b3-8a01872fa5a7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "64e78cd0-fabf-41ce-a5b3-8a01872fa5a7")
 		)
 		(pin "MM_RELAY5" input
 			(at 149.86 68.58 180)
+			(uuid "1cbc1918-2b5f-48a1-8307-98377fa8cf98")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1cbc1918-2b5f-48a1-8307-98377fa8cf98")
 		)
 		(pin "PM_DRIVER_RELAY5" input
 			(at 196.85 85.09 0)
+			(uuid "21674ac4-c364-4e77-b55c-b0fc998b6017")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "21674ac4-c364-4e77-b55c-b0fc998b6017")
 		)
 		(pin "PM_RELAY5" input
 			(at 149.86 85.09 180)
+			(uuid "20e481b5-2428-4fb6-a417-88b7e1d9eb15")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "20e481b5-2428-4fb6-a417-88b7e1d9eb15")
 		)
 		(pin "PM_RELAY4" input
 			(at 149.86 82.55 180)
+			(uuid "b996dbea-2cd6-4a60-a737-a65221c44e9f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b996dbea-2cd6-4a60-a737-a65221c44e9f")
 		)
 		(pin "PM_DRIVER_RELAY2" input
 			(at 196.85 77.47 0)
+			(uuid "7d639ad3-7d56-480c-84c3-2d5adfbaad39")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7d639ad3-7d56-480c-84c3-2d5adfbaad39")
 		)
 		(pin "PM_RELAY2" input
 			(at 149.86 77.47 180)
+			(uuid "4d4bb80e-e641-4cdd-80ca-1f82714efc8c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4d4bb80e-e641-4cdd-80ca-1f82714efc8c")
 		)
 		(pin "MM_RELAY3" input
 			(at 149.86 63.5 180)
+			(uuid "1afb7d9b-52a7-4950-a74c-9be7104dc6c1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1afb7d9b-52a7-4950-a74c-9be7104dc6c1")
 		)
 		(pin "MM_RELAY2" input
 			(at 149.86 60.96 180)
+			(uuid "2f03c164-4dbf-43b7-816b-4721c287c0b2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2f03c164-4dbf-43b7-816b-4721c287c0b2")
 		)
 		(pin "MM_RELAY4" input
 			(at 149.86 66.04 180)
+			(uuid "fb2ea04d-3aa3-46a0-98f0-6a4eee57731f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fb2ea04d-3aa3-46a0-98f0-6a4eee57731f")
 		)
 		(pin "PM_RELAY3" input
 			(at 149.86 80.01 180)
+			(uuid "542194ca-406e-4b72-b6db-3f302103e951")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "542194ca-406e-4b72-b6db-3f302103e951")
 		)
 		(pin "PM_DRIVER_RELAY3" input
 			(at 196.85 80.01 0)
+			(uuid "0db16f85-384c-4e8a-94bb-db5262096784")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0db16f85-384c-4e8a-94bb-db5262096784")
 		)
 		(pin "RELAY_EX2" input
 			(at 149.86 93.98 180)
+			(uuid "0d2128af-71e8-4cdb-9d9d-5040ca9c1576")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0d2128af-71e8-4cdb-9d9d-5040ca9c1576")
 		)
 		(pin "RELAY_EX1" input
 			(at 149.86 91.44 180)
+			(uuid "459e86de-df51-40fb-931b-557d23b076b9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "459e86de-df51-40fb-931b-557d23b076b9")
 		)
 		(pin "DRIVER_HV" input
 			(at 149.86 52.07 180)
+			(uuid "a32d0e7b-3a2c-4813-a3df-5bd372b76cef")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a32d0e7b-3a2c-4813-a3df-5bd372b76cef")
 		)
 		(instances
 			(project "Tractor VCU"
@@ -1112,17 +1120,23 @@
 	(sheet
 		(at 82.55 45.72)
 		(size 39.37 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "2088117f-15d4-4142-a33b-7f23092cf7eb")
 		(property "Sheetname" "POWER SUPPLY"
 			(at 82.55 45.0084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1132,6 +1146,8 @@
 		)
 		(property "Sheetfile" "power supply.kicad_sch"
 			(at 82.55 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,13 +1157,13 @@
 		)
 		(pin "72V" input
 			(at 121.92 52.07 0)
+			(uuid "ae33b88a-b365-4337-8be7-2bfeea5a3545")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ae33b88a-b365-4337-8be7-2bfeea5a3545")
 		)
 		(instances
 			(project "Tractor VCU"
@@ -1160,16 +1176,22 @@
 	(sheet
 		(at 82.55 68.58)
 		(size 39.37 85.09)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "29e57018-32ed-4a1e-9d3a-bf4ab032e5ea")
 		(property "Sheetname" "STM32"
 			(at 96.012 101.854 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1179,6 +1201,8 @@
 		)
 		(property "Sheetfile" "STM32F446RE minsys.kicad_sch"
 			(at 82.296 154.178 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,283 +1212,283 @@
 		)
 		(pin "PB8" input
 			(at 121.92 109.22 0)
+			(uuid "bd674a20-329d-4ab8-ae47-4c31551e8a60")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bd674a20-329d-4ab8-ae47-4c31551e8a60")
 		)
 		(pin "PB9" input
 			(at 121.92 106.68 0)
+			(uuid "0e97d8ca-a67f-4a0d-9bb5-139cf568c539")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0e97d8ca-a67f-4a0d-9bb5-139cf568c539")
 		)
 		(pin "PC10" input
 			(at 121.92 139.7 0)
+			(uuid "3aad93a8-ceba-481d-b58b-5281759eb3cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3aad93a8-ceba-481d-b58b-5281759eb3cd")
 		)
 		(pin "PC11" input
 			(at 121.92 137.16 0)
+			(uuid "fc799b30-9b04-4bb7-85bd-0dc0a381d0d4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fc799b30-9b04-4bb7-85bd-0dc0a381d0d4")
 		)
 		(pin "PC5" input
 			(at 121.92 74.93 0)
+			(uuid "1e2156e0-fb3d-44d5-bb31-d19684bc21da")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1e2156e0-fb3d-44d5-bb31-d19684bc21da")
 		)
 		(pin "PC8" input
 			(at 121.92 92.71 0)
+			(uuid "8527773c-992a-46fb-9ecb-0f731e7d072f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8527773c-992a-46fb-9ecb-0f731e7d072f")
 		)
 		(pin "PC4" input
 			(at 121.92 72.39 0)
+			(uuid "a548973d-2912-4b41-963c-543bb2f88bd8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a548973d-2912-4b41-963c-543bb2f88bd8")
 		)
 		(pin "PC7" input
 			(at 121.92 90.17 0)
+			(uuid "bca87c14-8b02-4c03-a7b0-defc14132279")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bca87c14-8b02-4c03-a7b0-defc14132279")
 		)
 		(pin "PB12" input
 			(at 121.92 130.81 0)
+			(uuid "a7e935d5-3e35-4365-94e9-56057a05fd0e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a7e935d5-3e35-4365-94e9-56057a05fd0e")
 		)
 		(pin "PB13" input
 			(at 121.92 133.35 0)
+			(uuid "747efca1-d33f-441f-be2b-572dda32798f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "747efca1-d33f-441f-be2b-572dda32798f")
 		)
 		(pin "PB15" input
 			(at 121.92 85.09 0)
+			(uuid "06715d1b-1076-4b07-9cc4-14887ef5e38a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "06715d1b-1076-4b07-9cc4-14887ef5e38a")
 		)
 		(pin "PB1" input
 			(at 121.92 80.01 0)
+			(uuid "7a1cc33f-13ae-4f6a-a8c2-3ff57ab1e5fe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7a1cc33f-13ae-4f6a-a8c2-3ff57ab1e5fe")
 		)
 		(pin "PB0" input
 			(at 121.92 77.47 0)
+			(uuid "08e7ebb9-c428-45c2-956b-48bc2f426980")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "08e7ebb9-c428-45c2-956b-48bc2f426980")
 		)
 		(pin "PA7" input
 			(at 121.92 69.85 0)
+			(uuid "de5a03ff-e813-48c0-ba85-ecc3abeb0933")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "de5a03ff-e813-48c0-ba85-ecc3abeb0933")
 		)
 		(pin "PA1" input
 			(at 121.92 99.06 0)
+			(uuid "17598785-2e47-4b19-b475-da4b3e389c1e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "17598785-2e47-4b19-b475-da4b3e389c1e")
 		)
 		(pin "PA5" input
 			(at 121.92 127 0)
+			(uuid "6d0d3b35-54c5-4104-a061-3e2f0a3db2d8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6d0d3b35-54c5-4104-a061-3e2f0a3db2d8")
 		)
 		(pin "PA2" input
 			(at 121.92 101.6 0)
+			(uuid "db9a9561-6b3f-429e-98d6-8602c95fb940")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "db9a9561-6b3f-429e-98d6-8602c95fb940")
 		)
 		(pin "PC9" input
 			(at 121.92 95.25 0)
+			(uuid "5cc381ef-f831-4593-a98e-c9dc5268e7ef")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5cc381ef-f831-4593-a98e-c9dc5268e7ef")
 		)
 		(pin "PC6" input
 			(at 121.92 87.63 0)
+			(uuid "8c87d58e-a466-4ac2-b9ab-4ee35107de35")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8c87d58e-a466-4ac2-b9ab-4ee35107de35")
 		)
 		(pin "PC0" input
 			(at 121.92 143.51 0)
+			(uuid "70026f58-2305-498a-93fb-b583b6e1c14a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "70026f58-2305-498a-93fb-b583b6e1c14a")
 		)
 		(pin "PC3" input
 			(at 121.92 152.4 0)
+			(uuid "2fec59bf-2a9e-48f7-b8c5-489ad92a99f1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2fec59bf-2a9e-48f7-b8c5-489ad92a99f1")
 		)
 		(pin "PC2" input
 			(at 121.92 149.86 0)
+			(uuid "4d745a6d-c740-412f-8c15-266a944c82ad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4d745a6d-c740-412f-8c15-266a944c82ad")
 		)
 		(pin "PC1" input
 			(at 121.92 146.05 0)
+			(uuid "8db5037a-bf30-40ee-bd2b-176858d1e11d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8db5037a-bf30-40ee-bd2b-176858d1e11d")
 		)
 		(pin "PB6" input
 			(at 121.92 120.65 0)
+			(uuid "86dd74fe-41ae-43b7-8da8-c56c27249d0c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "86dd74fe-41ae-43b7-8da8-c56c27249d0c")
 		)
 		(pin "PB5" input
 			(at 121.92 113.03 0)
+			(uuid "8a61e8ac-490b-45f0-bc52-e1b98990b865")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8a61e8ac-490b-45f0-bc52-e1b98990b865")
 		)
 		(pin "PB4" input
 			(at 121.92 115.57 0)
+			(uuid "ef2a3542-986d-4366-8b28-770e6176bb34")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ef2a3542-986d-4366-8b28-770e6176bb34")
 		)
 		(pin "PB3" input
 			(at 121.92 118.11 0)
+			(uuid "1d5e2b16-c8b3-4b39-81bc-f81724d6e9e6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1d5e2b16-c8b3-4b39-81bc-f81724d6e9e6")
 		)
 		(pin "PA4" input
 			(at 121.92 124.46 0)
+			(uuid "97944338-514c-4d24-92ea-d2f04b268727")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "97944338-514c-4d24-92ea-d2f04b268727")
 		)
 		(instances
 			(project "Tractor VCU"
@@ -1477,16 +1501,22 @@
 	(sheet
 		(at 149.86 104.14)
 		(size 55.88 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d18eff29-12ed-4479-9e43-f42eb8f183ad")
 		(property "Sheetname" "DRIVER & CONNECTOR"
 			(at 149.86 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,6 +1526,8 @@
 		)
 		(property "Sheetfile" "VCU Connectors.kicad_sch"
 			(at 149.606 154.178 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,263 +1537,263 @@
 		)
 		(pin "CAN1_TX" input
 			(at 149.86 106.68 180)
+			(uuid "6a349b15-dea8-4e39-9f7a-88f982c488af")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6a349b15-dea8-4e39-9f7a-88f982c488af")
 		)
 		(pin "CAN1_RX" input
 			(at 149.86 109.22 180)
+			(uuid "c0932650-829e-41bd-b907-bfd165e70f31")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c0932650-829e-41bd-b907-bfd165e70f31")
 		)
 		(pin "DRIVER_PUMP5" input
 			(at 205.74 139.7 0)
+			(uuid "87922644-1888-43b8-9fa0-ca731f015138")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "87922644-1888-43b8-9fa0-ca731f015138")
 		)
 		(pin "DRIVER_PUMP3" input
 			(at 205.74 134.62 0)
+			(uuid "5192aa4f-20d6-478e-9cd2-6af3d234392c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5192aa4f-20d6-478e-9cd2-6af3d234392c")
 		)
 		(pin "DRIVER_PUMP4" input
 			(at 205.74 137.16 0)
+			(uuid "97490ef0-1a94-48c9-9ec3-6a1d300271e3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "97490ef0-1a94-48c9-9ec3-6a1d300271e3")
 		)
 		(pin "DRIVER_PUMP1" input
 			(at 205.74 129.54 0)
+			(uuid "b89f77c4-9370-4e70-9c31-a276c9f86a60")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b89f77c4-9370-4e70-9c31-a276c9f86a60")
 		)
 		(pin "DRIVER_PUMP2" input
 			(at 205.74 132.08 0)
+			(uuid "662b632f-6652-4c9b-8903-9a8cd8ce465e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "662b632f-6652-4c9b-8903-9a8cd8ce465e")
 		)
 		(pin "DAC2_OUT" input
 			(at 149.86 127 180)
+			(uuid "210405a4-3cb2-4e46-a9dc-c9bc4c3a56b3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "210405a4-3cb2-4e46-a9dc-c9bc4c3a56b3")
 		)
 		(pin "DAC1_OUT" input
 			(at 149.86 124.46 180)
+			(uuid "95c54d0c-89ea-44a5-b0e9-23c0f0840bc6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "95c54d0c-89ea-44a5-b0e9-23c0f0840bc6")
 		)
 		(pin "DRIVER_MAIN5" input
 			(at 205.74 121.92 0)
+			(uuid "8f5f4f83-9e60-4795-afa4-74724433970e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8f5f4f83-9e60-4795-afa4-74724433970e")
 		)
 		(pin "DRIVER_MAIN4" input
 			(at 205.74 119.38 0)
+			(uuid "c8ed141b-f2e3-4828-b78c-05c97b9e2a0d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c8ed141b-f2e3-4828-b78c-05c97b9e2a0d")
 		)
 		(pin "DRIVER_MAIN3" input
 			(at 205.74 116.84 0)
+			(uuid "da5ce7f6-37d5-4fea-8f37-4d3c9c62dd4e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "da5ce7f6-37d5-4fea-8f37-4d3c9c62dd4e")
 		)
 		(pin "DRIVER_MAIN1" input
 			(at 205.74 111.76 0)
+			(uuid "ceaf0b9c-5195-4598-96dd-040d96333530")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ceaf0b9c-5195-4598-96dd-040d96333530")
 		)
 		(pin "DRIVER_MAIN2" input
 			(at 205.74 114.3 0)
+			(uuid "f0074f66-1e08-407a-bb0c-a78a4822e8a9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f0074f66-1e08-407a-bb0c-a78a4822e8a9")
 		)
 		(pin "CAN2_TX" input
 			(at 149.86 133.35 180)
+			(uuid "770c8b4c-def7-47ea-976c-36c362f93174")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "770c8b4c-def7-47ea-976c-36c362f93174")
 		)
 		(pin "CAN2_RX" input
 			(at 149.86 130.81 180)
+			(uuid "ad7fb71c-576e-4742-b783-cd70d44839c3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ad7fb71c-576e-4742-b783-cd70d44839c3")
 		)
 		(pin "USART3_RX" input
 			(at 149.86 137.16 180)
+			(uuid "f0ef0397-371f-45fe-80ae-de9eeec3156a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f0ef0397-371f-45fe-80ae-de9eeec3156a")
 		)
 		(pin "USART3_TX" input
 			(at 149.86 139.7 180)
+			(uuid "81c769c9-32bb-4b4d-aab0-b9c54710d67c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "81c769c9-32bb-4b4d-aab0-b9c54710d67c")
 		)
 		(pin "SPI1_MOSI" input
 			(at 149.86 113.03 180)
+			(uuid "052b6e39-ceb4-4e19-91a1-efb9ff19aef0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "052b6e39-ceb4-4e19-91a1-efb9ff19aef0")
 		)
 		(pin "SPI1_CS" input
 			(at 149.86 120.65 180)
+			(uuid "ebe221ed-4a35-4e38-a5b0-175c5b19b9b1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ebe221ed-4a35-4e38-a5b0-175c5b19b9b1")
 		)
 		(pin "SPI1_MISO" input
 			(at 149.86 115.57 180)
+			(uuid "7fd2d8f3-c54b-4435-bd2c-5b706b0d02f8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7fd2d8f3-c54b-4435-bd2c-5b706b0d02f8")
 		)
 		(pin "SPI1_SCK" input
 			(at 149.86 118.11 180)
+			(uuid "089165de-a8f4-4646-9351-37c89bf5a22a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "089165de-a8f4-4646-9351-37c89bf5a22a")
 		)
 		(pin "ADC1_IN12" input
 			(at 149.86 149.86 180)
+			(uuid "40468d88-3ab3-4f69-9b30-d2278390cbd9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "40468d88-3ab3-4f69-9b30-d2278390cbd9")
 		)
 		(pin "ADC1_IN13" input
 			(at 149.86 152.4 180)
+			(uuid "5a07e989-7864-45fd-80dd-c996b979f6f3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5a07e989-7864-45fd-80dd-c996b979f6f3")
 		)
 		(pin "BRAKE1_IN" input
 			(at 149.86 143.51 180)
+			(uuid "7e24b8a4-926e-477c-a1ed-e3ed8a4a06c9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7e24b8a4-926e-477c-a1ed-e3ed8a4a06c9")
 		)
 		(pin "BRAKE2_IN" input
 			(at 149.86 146.05 180)
+			(uuid "8ef0466f-c5c1-49af-8f07-c33c1ea78b08")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8ef0466f-c5c1-49af-8f07-c33c1ea78b08")
 		)
 		(instances
 			(project "Tractor VCU"
@@ -1776,4 +1808,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
